@@ -1,0 +1,467 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<?php $mobile_browser = '0';
+ 
+if(preg_match('/(up.browser|up.link|mmp|symbian|smartphone|midp|wap|phone)/i', strtolower($_SERVER['HTTP_USER_AGENT']))) {
+$mobile_browser++;
+}
+ 
+if((strpos(strtolower($_SERVER['HTTP_ACCEPT']),'application/vnd.wap.xhtml+xml')>0) or ((isset($_SERVER['HTTP_X_WAP_PROFILE']) or isset($_SERVER['HTTP_PROFILE'])))) {
+$mobile_browser++;
+} 
+ 
+$mobile_ua = strtolower(substr($_SERVER['HTTP_USER_AGENT'],0,4));
+$mobile_agents = array(
+'w3c ','acs-','alav','alca','amoi','audi','avan','benq','bird','blac',
+'blaz','brew','cell','cldc','cmd-','dang','doco','eric','hipt','inno',
+'ipaq','java','jigs','kddi','keji','leno','lg-c','lg-d','lg-g','lge-',
+'maui','maxo','midp','mits','mmef','mobi','mot-','moto','mwbp','nec-',
+'newt','noki','oper','palm','pana','pant','phil','play','port','prox',
+'qwap','sage','sams','sany','sch-','sec-','send','seri','sgh-','shar',
+'sie-','siem','smal','smar','sony','sph-','symb','t-mo','teli','tim-',
+'tosh','tsm-','upg1','upsi','vk-v','voda','wap-','wapa','wapi','wapp',
+'wapr','webc','winw','winw','xda','xda-');
+ 
+if(in_array($mobile_ua,$mobile_agents)) {
+$mobile_browser++;
+}
+ 
+if (strpos(strtolower($_SERVER['ALL_HTTP']),'OperaMini')>0) {
+$mobile_browser++;
+}
+ 
+if (strpos(strtolower($_SERVER['HTTP_USER_AGENT']),'windows')>0) {
+$mobile_browser=0;
+}
+ 
+else {
+if($mobile_browser>0) {
+    header("Location:  http://lacasuela.mobi"); /* Redirect browser */
+    exit;  /* Make sure that code below does not get executed after redirect. */
+} 
+} 
+ 
+?><!--
+Design by Alex Herrera, La Casuela Mexican Restaurant & Bar TM 2010
+http://www.lacasuela.com
+
+Name       : La Casuela Mexican Restaurant & Bar (La Casuela from the Spanish word "cazuela"  a hand made cooking pot costumary used for cooking traditional mexican dishes such as chicken Mole.
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20091109
+
+-->
+  <script language="JavaScript">
+<!--
+alert('Download Our Free iPhone App. Now available at the App Store. Be sure to click on the "App Store" Image Link on our page to Download. Access our Menu, order Takeout, Receive Specials and More!!');
+//-->
+  </script><!--please this script directly under the /head tag-->
+  <script type="text/javascript">
+	if ( (navigator.userAgent.indexOf('iPad') != -1)) {
+		document.location = "iphone/home.html";
+	}
+  </script>
+  <script language="javascript">
+<!--
+if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)))
+{
+location.replace("iphone/home.html");
+}
+-->
+  </script>
+  <meta name="keywords"
+ content="la casuela,las casuelas,la cazuela, las cazuelas, rosal, morenita, ripon ca, ripon, google, michelada, margarita, beer tower, tower, modesto, modesto restaurants,  Restaurants, restaurant, Mexican, Food, Brunch, Lunch, Dinner, Banquets, Casual, Dining, Southwest, tamales, fajitas, happy hour tacos, fresh, azteca, mexican, seattle, food, ramos, family, families, dining, restaurants, restarants, restaraunts, restaurant, great, mexican restaurants, chicago, chicago area, mexican style food, mexican food chicago area, mexican style food, mexican food, mexican style restaurants, mexican style food chicago, branded programs, mexican food branded, food private label, private label, mexican style food, mexican style restaurants, mexican style food chicago, branded programs, mexican food branded,food private label, private label, mexican style food chicago, mexican food chicago, mexican style food chicago area, mexican food chicago area, chile con queso, garnachas, guacamole, taquitos, jalapeo poppers, botana grande, botana chica, queso fundido, beef nacho grande platter, nacho platter, steak nachos, stuffed nachos, quesadillas ,steak quesadillas, grilled chicken quesadillas, chorizo quesadillas, quesadillas cozumel, steak quesadillas dinner ,shrimp quesadillas, steak fajita salad, taco salad, chicken fajita salad, garden salad, quesadillas, steak quesadillas, grilled chicken quesadillas, chorizo quesadillas, quesadillas cozumel, steak quesadillas dinner, shrimp quesadillas, regular burrito dinner, burrito suizo dinner, burrito frito dinner, regular steak burrito dinner, steak burrito suizo dinner, steak burrito frito dinner, fajita burrito suizo or frito dinner, fajita burrito dinner, vegetable burrito suizo or frito, mariachis mexican shish-ka-bob, carne asada, carne a la mexicana, carne asada especial, carne asada suiza, carne asada a la tampiquena, chicken en mol'e, guisado de res, chile relleno, chicken a la mexicana, menudo, steak fajitas, chicken fajitas, traditional carnitas, carnitas fajita style, steak and chicken fajitas, vegetable fajitas, steak taco dinner, stuffed taco dinner, taco dinner, stuffed steak taco dinner, fried beans, spanish rice, enchiladas poblanas, enchiladas cozumel, enchiladas suizas, tamales, tostadas de guacamole, tostadas, tostadas suizas, flautas, kids 10 and under, kids menu,taco dinner, tostada suiza dinner, enchilada suiza dinner, taquitos mini-tacos dinner, hot dog, quesadillas, grilled cheese sandwich, chicken fingers, american fare, pepe grande burger deluxe, hot dog, french frie, cheese fries, steak fajitas, chicken fajitas, traditional carnitas, carnitas fajita style, steak and chicken fajitas, vegetable fajitas, margaritas, wine, sangria, soft drinks, cocktails, imported beer, domestic beer, botanas, nachos, quesadillas, ensaladas, combinaciones, favoritos, taco dinners, burrito dinners, asador, tradicionales, fajitas, kids menu, american fare, postres, cantina,  La Casuela Mexican Restaurant &amp; Bar (La Casuela from the Spanish word ">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/gif" href="lc-images/animated_favicon1.gif">
+  <link rel="apple-touch-icon" href="casuela-icon-256.png">
+  <meta name="description" content="">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>La Casuela Mexican Restaurant &amp; Bar Main Page. La Casuela
+Mexican Restaurant &amp; Bar (La Casuela from the Spanish word
+"cazuela" a hand made cooking pot custumary used for cooking
+traditional mexican dishes such as chicken Mole. Cazuelas.</title>
+  <link href="style.css" rel="stylesheet" type="text/css" media="screen">
+  <style type="text/css">
+<!--
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+a {
+	font-family: Georgia, Times New Roman, Times, serif;
+}
+-->
+  </style>
+  <script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+</head>
+<body
+ onload="DesignerWizWin=window.open('/iphone/popupapp.html','DesignerWizWin','toolbar=0,location=0,directories=0,menuBar=0,scrollbars=1,resizable=1,width=150,height=350,left=0,top=50');"
+ scroll="yes">
+<div id="header"></div>
+<div align="center"><!-- end #header -->
+</div>
+<div id="menu">
+<ul>
+  <li class="first"> </li>
+  <li><a href="http://lacasuela.com/main_page.html">Home</a></li>
+  <li><a href="http://lacasuela.com/dinner_menu.html">Dinner</a></li>
+  <li><a href="http://lacasuela.com/lunch.html">Lunch</a></li>
+  <li><a href="http://lacasuela.com/the_bar.html">Bar</a></li>
+  <li><a href="http://lacasuela.com/specials.html">Specials</a></li>
+  <li><a href="http://lacasuela.com/the_gallery.html">Gallery</a></li>
+  <li><a href="http://lacasuela.com/directions_page.html">Directions</a></li>
+  <li><a href="http://lacasuela.com/careers.html">Employment</a></li>
+  <li><a href="http://lacasuela.com/gift.html">Gift Cards</a></li>
+  <li><a href="http://lacasuela.com/contact_us.html">Contact</a></li>
+</ul>
+</div>
+<!-- end #menu -->
+<div id="wrapper">
+<div id="wrapper-top">
+<div id="wrapper-btm">
+<div id="page">
+<div id="content">
+<div class="post">
+<h1 class="title" align="center"><a href="#">Welcome to La Casuela
+Mexican Restaurant &amp; Bar</a> </h1>
+<div class="post">
+<div class="entry">
+<div align="center">107 E. Main St.<br>
+Ripon, CA 95366<br>
+(209) 599-4003<br>
+<a href="mailto:lacasuela@verizon.net">laCasuela@verizon.net </a></div>
+<br>
+<br>
+La Casuela Mexican Restaurant &amp; Bar, Home of the Micheladas. Simply
+the best Mexican Food in the Valley. Located in the heart of Ripon, La
+Casuela Mexican Restaurant &amp; Bar offers great and affortable
+Mexican cuisine in a charming atmosphere with friendly service.<br>
+<br>
+Enjoy dining in our casual enviroment dining area or modest and cozy
+bar, or reserve out our Banquet room, Multimedia room (outfitted with a
+50" Flatscreen TV, DVD, and Laptop connection for special occasions.<br>
+<br>
+La Casuela Mexican Restaurant &amp; Bar (La Casuela from the Spanish
+word "cazuela" a hand made cooking pot costumary used for cooking
+traditional mexican dishes such as chicken Mole.
+<table width="550">
+  <tbody>
+    <tr>
+      <td>
+      <div align="center">Hope to see you soon!</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p class="meta"><img src="lc-images/1.jpg" alt="1 JPG" height="432"
+ width="547"></p>
+</div>
+<div class="post">
+<h2 class="title">&nbsp;</h2>
+<div class="entry">
+<div align="center">
+<p><img src="lc-images/5.jpg" alt="5 JPG" height="432" width="547"></p>
+<p class="post">For Group lunches, large parties or known busy nights.
+We recommend making a reservation.<br>
+Please get in touch and let us know what you think of this site and our
+restaurant.<br>
+We're always looking for ways to improve our service and offerings.<br>
+(209) 599-4003<br>
+<a href="mailto:lacasuela@verizon.net">laCasuela@verizon.net</a></p>
+</div>
+<p>The Ramirez Family has been in business for over 25 years. Ana and
+Guillermo Ramirez developed &ldquo;Las Casuelas Mexican Restaurant and
+Bar&rdquo;, family owned and operated.</p>
+<p>There are currently three &ldquo;Las Casuelas Mexican Restaurant and
+Bar&rdquo; locations, each ran by one of Ana&rsquo;s and
+Guillermo&rsquo;s three sybilings, in the towns of Manteca, Modesto,
+and Turlock.</p>
+<p>&ldquo;La Casuela Mexican Restaurant &amp; Bar&rdquo; was created
+under the supervision and support of the Ramirez family although is not
+ran and operated by the Ramirez Family, it shares the same menu,
+recipes and family atmosphere that you would expect from &ldquo;Las
+Casuelas&rdquo;.</p>
+<p align="center">Visit <a href="http://www.las-casuelas.com">Las
+Casuelas Mexican Restaurant and Bar</a> oficial website<br>
+OR LAS CasuelaS FACEBOOK PAGE<br>
+<a
+ href="http://www.facebook.com/pages/Manteca-CA/Las-Casuelas-Mexican-Restaurant-Bar/184852335749">Las
+Casuelas</a></p>
+<table border="0" width="548">
+  <tbody>
+    <tr>
+      <td width="56"><img src="lc-images/iPhone App/NEW_Star.gif" alt=""
+ width="50"></td>
+      <td width="482">
+      <h3><a href="casuela_iphone_app.php">La Casuela Mexican
+Restaurant &amp; Bar iPhone App</a></h3>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" height="326">
+      <div align="center"><a href="casuela_iphone_app.php"><img
+ src="lc-images/iPhone App/iphone_app1.png" alt="" width="150"></a><a
+ href="http://itunes.apple.com/us/app/la-casuela-mexican-restaurant/id380845445?mt=8"><img
+ src="lc-images/foursquare/appStoreBig.png" alt="" width="100"></a></div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p align="center">
+<script type="text/javascript">
+(function() {
+var s = document.createElement('SCRIPT'), s1 = document.getElementsByTagName('SCRIPT')[0];
+s.type = 'text/javascript';
+s.async = true;
+s.src = 'http://widgets.digg.com/buttons.js';
+s1.parentNode.insertBefore(s, s1);
+})();
+                              </script></p>
+<p> <a class="DiggThisButton DiggCompact"
+ href="http://digg.com/submit?url=http%3A//www.lacasuela.com/main.php"></a><br>
+</p>
+<p align="center"></p>
+<div align="center"></div>
+</div>
+</div>
+<p><!-- Start of StatCounter Code -->
+  <script type="text/javascript">
+var sc_project=5539806; 
+var sc_invisible=1; 
+var sc_partition=60; 
+var sc_click_stat=1; 
+var sc_security="db5f47b9"; 
+  </script>
+  <script type="text/javascript"
+ src="http://www.statcounter.com/counter/counter.js"></script>
+  <a title="click tracking"
+ href="http://www.statcounter.com/" target="_blank"><img
+ class="statcounter"
+ src="http://c.statcounter.com/5539806/0/db5f47b9/1/"
+ alt="click tracking"></a></p>
+</div>
+<!-- End of StatCounter Code -->
+<div class="post">
+<p class="meta" align="center">
+<noscript></noscript>
+</p>
+<div align="center">
+  <table width="550">
+  </table>
+</div>
+<p align="center"><a href="sitemap.xml">Sitemap.xml </a></p>
+<p align="center">&nbsp;<a href="pages/sitemap-lc.php">Sitemap page (HTML)</a></p>
+<p align="center">&nbsp;
+                    </p>
+</div>
+</div>
+<!-- end #content -->
+<div id="sidebar">
+<ul>
+  <li><span class="meta"><img
+ src="lc-images/La Casuela Logo shadowed.jpg" alt="logo"
+ align="middle" width="250"></span>
+    <h2>Business Hours:</h2>
+    <p><br>
+    <a
+ href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;q=107+Main+St,+Ripon,+San+Joaquin,+California+95366&amp;sll=37.0625,-95.677068&amp;sspn=31.23349,78.662109&amp;ie=UTF8&amp;cd=1&amp;geocode=FUTbPwIdysvH-A&amp;split=0&amp;hq=&amp;hnear=107+Main+St,+Ripon,+San+Joaquin,+California+95366&amp;z=16">La
+Casuela Mexican Restaurant &amp; Bar<br>
+107 E. Main St<br>
+Ripon, CA, 95366</a><a
+ href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;q=107+Main+St,+Ripon,+San+Joaquin,+California+95366&amp;sll=37.0625,-95.677068&amp;sspn=31.23349,78.662109&amp;ie=UTF8&amp;cd=1&amp;geocode=FUTbPwIdysvH-A&amp;split=0&amp;hq=&amp;hnear=107+Main+St,+Ripon,+San+Joaquin,+California+95366&amp;z=16"></a><br>
+Phone:<br>
+(209)599-4003<br>
+Mon - Thurs:<br>
+11:00 am - 8:00 pm<br>
+Fri - Sat:<br>
+11:00 am - 9:00 pm<br>
+Sun:<br>
+12:00 pm - 8:00 pm</p>
+  </li>
+</ul>
+<embed
+ src="http://lacasuela.com/wp-content/uploads/2010/12/El-Mariachi.mp3"
+ loop="false" autoplay="true" volume="50" height="60" width="145">
+<h3> <img src="lc-images/signup.jpg" alt="" height="105" width="136"></h3>
+<h3><br>
+Want to receive Special offers from us from time to time?</h3>
+<h3><br>
+Join our Email or Mobile Text Club <a href="pages/email_text_club.php">HERE</a></h3>
+<p>&nbsp; </p>
+<li>
+  <div align="center">
+  <h2 align="center"><span class="title">NOW WITH!</span></h2>
+  </div>
+</li>
+<li>
+  <h2 align="center"><span class="meta"><span class="title"><a
+ href="pages/order-lc.php">On-line Ordering</a></span></span></h2>
+</li>
+<li>Powered by <a href="pages/order-lc.php"><img
+ src="lc-images/iPhone App/snapfinger.png" alt="" width="150"></a>
+  <p>&nbsp;</p>
+  <p> <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ id="FlashID" title="Casuela Flash" height="245" width="272"> <param
+ name="movie" value="Video/casuela_flash.swf"> <param name="quality"
+ value="high"> <param name="wmode" value="opaque"> <param
+ name="swfversion" value="6.0.65.0"><!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+  <param name="expressinstall" value="Scripts/expressInstall.swf"><!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. --><!--[if !IE]>-->
+  <object type="application/x-shockwave-flash"
+ data="Video/casuela_flash.swf" height="245" width="272"><!--<![endif]-->
+  <param name="quality" value="high"> <param name="wmode"
+ value="opaque"> <param name="swfversion" value="6.0.65.0"> <param
+ name="expressinstall" value="Scripts/expressInstall.swf"><!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+  <div>
+  <h4>Content on this page requires a newer version of Adobe Flash
+Player.</h4>
+  <p><a href="http://www.adobe.com/go/getflashplayer"><img
+ src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
+ alt="Get Adobe Flash player" height="33" width="112"></a></p>
+  </div>
+<!--[if !IE]>--> </object><!--<![endif]--> </object> </p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p><a href="foursquare.php"><img
+ src="lc-images/foursquare/checkinhere-cling.png" alt="check in"
+ height="177" width="202"></a> </p>
+  <p> <object height="175" width="256"> <param name="movie"
+ value="http://www.youtube.com/v/AVRfXtuynVU&amp;hl=en_US&amp;fs=1"> <param
+ name="allowFullScreen" value="true"> <param name="allowscriptaccess"
+ value="always">
+  <embed src="http://www.youtube.com/v/AVRfXtuynVU&amp;hl=en_US&amp;fs=1"
+ type="application/x-shockwave-flash" allowscriptaccess="always"
+ allowfullscreen="true" height="175" width="256"> </object> This is a
+video view of the restaurant as entered from the main entrance.</p>
+  <p> <object height="184" width="249"> <param name="movie"
+ value="http://www.youtube.com/v/Fuy1Z71eVWA&amp;hl=en_US&amp;fs=1"> <param
+ name="allowFullScreen" value="true"> <param name="allowscriptaccess"
+ value="always">
+  <embed src="http://www.youtube.com/v/Fuy1Z71eVWA&amp;hl=en_US&amp;fs=1"
+ type="application/x-shockwave-flash" allowscriptaccess="always"
+ allowfullscreen="true" height="184" width="249"> </object> This Is a
+video view of the Restaurant as entered through the rear entrance.</p>
+  <ul>
+    <li>
+      <table width="200" border="1">
+        <tr>
+          <th scope="row"><span class="meta"><img
+ src="lc-images/Casuel_business_card_jpg_w300h172.jpg" alt="BusCard"
+ class="page_paragraph" align="middle" height="104" width="180"></span></th>
+        </tr>
+        <tr>
+          <th scope="row">&nbsp;</th>
+        </tr>
+        <tr>
+          <th scope="row"><span class="meta"><img src="lc-images/creditcards2.gif"
+ alt="Credit cards" height="80" width="134"></span></th>
+        </tr>
+      </table>
+      <div align="center"></div>
+    </li>
+  </ul>
+</li>
+</div>
+<!-- end #sidebar -->
+<div style="clear: both;">
+<div align="center"></div>
+</div>
+</div>
+<!-- end #page --> </div>
+</div>
+</div>
+<div id="footer">
+<p><a href="main-lc.php">HOME</a> | <a href="http://lacasuela.mobi">MOBILE
+WEBSITE</a> |<a href="pages/dinner-lc.php"> DINNER</a> |<a href="lunch-lc.php">
+LUNCH</a> | <a href="pages/bar-lc.php">BAR</a> | <a href="pages/specials-lc.php">SPECIALS</a>
+| <a href="pages/gallery-lc.php">GALLERY</a> | <a href="pages/employment-lc.php">EMPLOYMENT</a>
+| <a href="pages/gift-lc.php">GIFT CARDS</a> | <a href="pages/about_us-lc.php">ABOUT
+US</a> |<a href="pages/order-lc.php"> ORDER </a>|<a
+ href="pages/mobile_order-lc.php"> ORDER FROM A MOBILE DEVICE </a>| <a
+ href="http://www.lacasuela.com/main.html">FULL SITE</a>| <a
+ href="pages/contact-lc.php">CONTACT US</a></p>
+<p>&nbsp;</p>
+<p>&nbsp; </p>
+<p>La Casuela Mexican Restaurant &amp; Bar Copyright (c) 2010 All
+rights reserved. Design by Alex Herrera @ <a
+ href="http://www.lacasuela.com/maim">La Casuela Mexican Restaurant
+&amp; Bar.</a>La
+Casuela Mexican Restaurant &amp; Bar (La Casuela from the Spanish word
+"cazuela" a hand made cooking pot costumary used for cooking
+traditional mexican dishes such as chicken Mole.</p>
+<p></p>
+<br>
+<table border="0" width="911">
+  <tbody>
+    <tr>
+      <td>
+      <div align="center"><script type="text/JavaScript">
+//<![CDATA[
+var sealServer=document.location.protocol+"//seals.websiteprotection.com/sealws/4e0ed726-4c98-4a53-acee-5abb0a0607d7.gif";var certServer=document.location.protocol+"//certs.websiteprotection.com/sealws/?sealId=4e0ed726-4c98-4a53-acee-5abb0a0607d7";var hostName="lacasuela.com";document.write(unescape('<div style="text-align:center;margin:0 auto;"><a target="_blank" href="'+certServer+'&pop=true" style="display:inline-block;"><img src="'+sealServer+'" alt="Website Protection&#153; Site Scanner protects this website from security threats." title="This Website Protection site seal is issued to '+ hostName +'. Copyright © 2011, all rights reserved."oncontextmenu="alert(\'Copying Prohibited by Law\'); return false;" border="0" /></a><div id="bannerLink"><a href="https://www.godaddy.com/" target="_blank"></a></div></div>'));
+//]]>
+</script>
+                    </div>
+      </td>
+      <td><div align="center"><object height="80" width="100">
+        <param
+ name="movie" value="twitbutton.swf">
+        <param name="allowscriptaccess"
+ value="always">
+        <param name="menu" value="false">
+        <param name="wmode"
+ value="transparent">
+        <param name="flashvars"
+ value="username=lacasuela">
+        <embed src="twitbutton.swf" type="application/x-shockwave-flash"
+ allowscriptaccess="always" menu="false" wmode="transparent"
+ flashvars="username=lacasuela" height="80" width="100">
+        </object></td>
+      <td>
+      <script src="http://www.urbanspoon.com/b/o_like_it/1264166"><noscript><a href="http://www.urbanspoon.com/r/298/1264166/restaurant/Stockton/La-Casuela-Mexican-Restaurant-Bar-Ripon">La Casuela Mexican Restaurant & Bar</a></noscript></script></td>
+      <td>
+      <div align="center">
+      <script type="text/javascript"
+ src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US"></script>
+      <script type="text/javascript">FB.init("6a13533dd9c0b323d256a55a9f989918");</script>
+      <fb:fan profile_id="194547287007" stream="" connections=""
+ width="300"></fb:fan>
+      <div style="font-size: 8px; padding-left: 10px;"><a
+ href="http://www.facebook.com/pages/Ripon-CA/La-Casuela-Mexican-Restaurant-Bar/194547287007">La
+Casuela Mexican Restaurant &amp; Bar on Facebook</a></div>
+      </div>
+      </td>
+      <td>
+      <div align="center"><a name="fb_share" type="button_count"
+ href="http://www.facebook.com/sharer.php">Share</a>
+      <script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share"
+ type="text/javascript"></script> </div>
+      </td>
+      <td width="200"><a
+ href="http://www.yelp.com/biz/la-casuela-mexican-restaurant-and-bar-ripon">
+      <img
+ src="https://images.yelp.com/extimg/rc2/eWvHbWsdd07EtsIE3Sd7hQ.png"
+ alt="La Casuela Mexican Restaurant &amp; Bar" height="20" width="150"></a></td>
+    </tr>
+    <tr>
+    </tr>
+  </tbody>
+</table>
+<p>&nbsp;</p>
+</div>
+<!-- end #footer -->
+<script type="text/javascript">
+<!--
+swfobject.registerObject("FlashID");
+//-->
+</script>
+</body>
+</html>
