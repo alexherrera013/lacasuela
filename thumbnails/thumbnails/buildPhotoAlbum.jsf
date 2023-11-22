@@ -1,0 +1,76 @@
+App.progressCountTotal = 9;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///Macintosh HD/Users/lacasuela/Desktop/menus/DM (1).jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'DM (1).jpg';
+if (!Files.exists('file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (1)_jpg.jpg') || confirm('file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (1)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (1)_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (1)_jpg.jpg') || confirm('file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (1)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (1)_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/lacasuela/Desktop/menus/DM (2).jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'DM (2).jpg';
+if (!Files.exists('file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (2)_jpg.jpg') || confirm('file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (2)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (2)_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (2)_jpg.jpg') || confirm('file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (2)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (2)_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/lacasuela/Desktop/menus/DM (3).jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'DM (3).jpg';
+if (!Files.exists('file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (3)_jpg.jpg') || confirm('file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (3)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (3)_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (3)_jpg.jpg') || confirm('file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (3)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (3)_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/lacasuela/Desktop/menus/DM (4).jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'DM (4).jpg';
+if (!Files.exists('file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (4)_jpg.jpg') || confirm('file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (4)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (4)_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (4)_jpg.jpg') || confirm('file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (4)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (4)_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/lacasuela/Desktop/menus/DM (5).jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'DM (5).jpg';
+if (!Files.exists('file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (5)_jpg.jpg') || confirm('file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (5)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (5)_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (5)_jpg.jpg') || confirm('file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (5)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (5)_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/lacasuela/Desktop/menus/DM (6).jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'DM (6).jpg';
+if (!Files.exists('file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (6)_jpg.jpg') || confirm('file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (6)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (6)_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (6)_jpg.jpg') || confirm('file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (6)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (6)_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/lacasuela/Desktop/menus/DM (7).jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'DM (7).jpg';
+if (!Files.exists('file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (7)_jpg.jpg') || confirm('file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (7)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (7)_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (7)_jpg.jpg') || confirm('file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (7)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (7)_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/lacasuela/Desktop/menus/DM (8).jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'DM (8).jpg';
+if (!Files.exists('file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (8)_jpg.jpg') || confirm('file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (8)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM (8)_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (8)_jpg.jpg') || confirm('file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (8)_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM (8)_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/lacasuela/Desktop/menus/DM.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'DM.jpg';
+if (!Files.exists('file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM_jpg.jpg') || confirm('file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/PetCharms/petcharms/petcharms/images/DM_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM_jpg.jpg') || confirm('file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/PetCharms/petcharms/petcharms/thumbnails/DM_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';

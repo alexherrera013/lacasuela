@@ -1,0 +1,36 @@
+App.progressCountTotal = 4;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///Macintosh HD/Users/lacasuela/Desktop/Locations/La_casuela_ripon.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'La_casuela_ripon.jpg';
+if (!Files.exists('file:///SNOWBOARD/Casuela Charm Site/images/La_casuela_ripon_jpg.jpg') || confirm('file:///SNOWBOARD/Casuela Charm Site/images/La_casuela_ripon_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/Casuela Charm Site/images/La_casuela_ripon_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///SNOWBOARD/Casuela Charm Site/thumbnails/La_casuela_ripon_jpg.jpg') || confirm('file:///SNOWBOARD/Casuela Charm Site/thumbnails/La_casuela_ripon_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/Casuela Charm Site/thumbnails/La_casuela_ripon_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/lacasuela/Desktop/Locations/Las_Casuelas_Manteca.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'Las_Casuelas_Manteca.jpg';
+if (!Files.exists('file:///SNOWBOARD/Casuela Charm Site/images/Las_Casuelas_Manteca_jpg.jpg') || confirm('file:///SNOWBOARD/Casuela Charm Site/images/Las_Casuelas_Manteca_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/Casuela Charm Site/images/Las_Casuelas_Manteca_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///SNOWBOARD/Casuela Charm Site/thumbnails/Las_Casuelas_Manteca_jpg.jpg') || confirm('file:///SNOWBOARD/Casuela Charm Site/thumbnails/Las_Casuelas_Manteca_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/Casuela Charm Site/thumbnails/Las_Casuelas_Manteca_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/lacasuela/Desktop/Locations/Las_casuelas_modesto.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'Las_casuelas_modesto.jpg';
+if (!Files.exists('file:///SNOWBOARD/Casuela Charm Site/images/Las_casuelas_modesto_jpg.jpg') || confirm('file:///SNOWBOARD/Casuela Charm Site/images/Las_casuelas_modesto_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/Casuela Charm Site/images/Las_casuelas_modesto_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///SNOWBOARD/Casuela Charm Site/thumbnails/Las_casuelas_modesto_jpg.jpg') || confirm('file:///SNOWBOARD/Casuela Charm Site/thumbnails/Las_casuelas_modesto_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/Casuela Charm Site/thumbnails/Las_casuelas_modesto_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/lacasuela/Desktop/Locations/las_casuelas_turlock.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'las_casuelas_turlock.jpg';
+if (!Files.exists('file:///SNOWBOARD/Casuela Charm Site/images/las_casuelas_turlock_jpg.jpg') || confirm('file:///SNOWBOARD/Casuela Charm Site/images/las_casuelas_turlock_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/Casuela Charm Site/images/las_casuelas_turlock_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///SNOWBOARD/Casuela Charm Site/thumbnails/las_casuelas_turlock_jpg.jpg') || confirm('file:///SNOWBOARD/Casuela Charm Site/thumbnails/las_casuelas_turlock_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///SNOWBOARD/Casuela Charm Site/thumbnails/las_casuelas_turlock_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-200, ySize:-200}));
+fw.closeDocument(doc);
+'done';
