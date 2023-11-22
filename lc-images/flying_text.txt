@@ -1,0 +1,6 @@
+&varURL=      http://www.LaCasuela.com
+		Click continue
+&text1=         La Casuela Mexican Restaurant & Bar
+&text2=         Simply the best Mexican Food in the Valley
+&text3=         Welcome to "The Home of the Michelada"
+&url=file:///Volumes/SNOWBOARD/PetCharms/petcharms/petcharms/Main.html
