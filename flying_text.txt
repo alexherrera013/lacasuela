@@ -1,0 +1,5 @@
+&varURL=      http://www.lacasuela.com
+&text1=         La Casuela Mexican Restaurant And Bar
+&text2=         Simply The Best Mexican Food In The Valley
+&text3=         Welcome To "The Home Of The Michelada"
+&url=http://www.lacasuela.com/main.html

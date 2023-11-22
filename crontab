@@ -1,0 +1,4 @@
+# canary
+MAILTO=""
+# 1878658 Drupal Automated Task
+52 * * * * /usr/bin/wget -O - -q "http://alex13.us/drupal/cron.php" > /dev/null 2>&1
